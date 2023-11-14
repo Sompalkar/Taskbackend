@@ -17,12 +17,7 @@ const app = express();
 
 
 
-app.use(cors({
-
-    credentials: true,
-    origin: 'https://taskks.netlify.app',
-
-}));
+app.use(cors( ));
 
 app.use(express.json());
 
